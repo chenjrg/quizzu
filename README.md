@@ -1,2 +1,2 @@
 # Ryo-Tracker
-A mobile app to se
+A mobile app to serve as an infor
