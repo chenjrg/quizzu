@@ -19,3 +19,21 @@ class MarketViewController: UIViewController, UIPopoverPresentationControllerDel
     @IBOutlet weak var bidPrice: UILabel!
     @IBOutlet weak var askPrice: UILabel!
     @IBOutlet weak var volume24h: UILabel!
+    @IBOutlet weak var high24h: UILabel!
+    @IBOutlet weak var low24h: UILabel!
+    
+    fileprivate var requestTimer: Timer?
+    
+    fileprivate var symbol = "XBTUSD"
+    fileprivate var timeIntervals = ["1d","1h","5m","1m"]
+    fileprivate var interval = "1h"
+    fileprivate var binCount = 75
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Do any additional setup after loading the view, typically from a nib.
+        chartSetup()
+        
+        // Send HTTP requests every 10 seconds to update data
+        requestTimer = Timer.scheduledTimer(withTimeInterval: 10, repeats: true) { timer in
