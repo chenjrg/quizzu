@@ -37,3 +37,22 @@ class MarketViewController: UIViewController, UIPopoverPresentationControllerDel
         
         // Send HTTP requests every 10 seconds to update data
         requestTimer = Timer.scheduledTimer(withTimeInterval: 10, repeats: true) { timer in
+            
+            // Gets trade bins for chart data
+            self.updateCharts()
+            
+            // Gets instrument data
+            HTTPRequest.requestInstrument(symbol: self.symbol) { instruments in
+                for instrument in instruments {
+                    self.updateLabels(lastPrice: instrument.lastPrice!,
+                        mPrice: instrument.markPrice!,
+                        bPrice: instrument.bidPrice!,
+                        aPrice: instrument.askPrice!,
+                        volume: instrument.volume24h!,
+                        highPrice: instrument.highPrice!,
+                        lowPrice: instrument.lowPrice!)
+                }
+            }
+        }
+        
+        requestTimer!.fire()
