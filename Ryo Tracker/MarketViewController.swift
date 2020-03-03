@@ -74,3 +74,22 @@ class MarketViewController: UIViewController, UIPopoverPresentationControllerDel
     }
     
     override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        requestTimer?.invalidate()
+        requestTimer = nil
+    }
+    
+    private func updateChartData(tradeBins: [TradeBin]) {
+        
+        let yVals1 = (0..<tradeBins.count).map { (i) -> CandleChartDataEntry in
+            let numberVals = tradeBins.count-1
+            let high = tradeBins[numberVals-i].high!
+            let low = tradeBins[numberVals-i].low!
+            let open = tradeBins[numberVals-i].open!
+            let close = tradeBins[numberVals-i].close!
+            
+            return CandleChartDataEntry(x: Double(i), shadowH: high, shadowL: low, open: open, close: close, icon: nil)
+        }
+        
+        let set1 = CandleChartDataSet(values: yVals1, label: "Data Set")
+        set1.axisDependency = .left
