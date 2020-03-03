@@ -56,3 +56,21 @@ class MarketViewController: UIViewController, UIPopoverPresentationControllerDel
         }
         
         requestTimer!.fire()
+
+    }
+    
+    fileprivate func chartSetup() {
+        candleStickChartView.chartDescription?.text = symbol
+        candleStickChartView.pinchZoomEnabled = true
+        candleStickChartView.dragEnabled = true
+        candleStickChartView.rightAxis.enabled = false
+        candleStickChartView.xAxis.enabled = false
+        candleStickChartView.legend.enabled = false
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
