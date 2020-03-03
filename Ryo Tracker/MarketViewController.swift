@@ -93,3 +93,22 @@ class MarketViewController: UIViewController, UIPopoverPresentationControllerDel
         
         let set1 = CandleChartDataSet(values: yVals1, label: "Data Set")
         set1.axisDependency = .left
+        set1.setColor(UIColor(white: 80/255, alpha: 1))
+        set1.drawIconsEnabled = false
+        set1.decreasingColor = .red
+        set1.decreasingFilled = true
+        set1.increasingColor = UIColor(red: 122/255, green: 242/255, blue: 84/255, alpha: 1)
+        set1.increasingFilled = true
+        set1.neutralColor = .white
+        set1.shadowColorSameAsCandle = true
+        set1.drawValuesEnabled = false
+        
+        let data = CandleChartData(dataSet: set1)
+        candleStickChartView.data = data
+    }
+    
+    func updateLabels(lastPrice: Double, mPrice: Double, bPrice: Double, aPrice: Double, volume: Double, highPrice: Double, lowPrice: Double) {
+        price.text = formatNumber(number: lastPrice)
+        markPrice.text = formatNumber(number: mPrice)
+        bidPrice.text = formatNumber(number: bPrice)
+        askPrice.text = formatNumber(number: aPrice)
