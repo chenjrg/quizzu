@@ -133,3 +133,24 @@ class MarketViewController: UIViewController, UIPopoverPresentationControllerDel
         
     }
     
+    @IBAction func instrumentPress(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "changeInstrument", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "changeInstrument" {
+            let destination = segue.destination
+            if let popController = destination.popoverPresentationController {
+                popController.backgroundColor = UIColor.lightGray
+                popController.delegate = self
+            }
+        }
+    }
+    
+    func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+        return .none
+    }
+    
+    @IBAction func segmentedControl(_ sender: UISegmentedControl) {
+        
+        switch sender.selectedSegmentIndex {
