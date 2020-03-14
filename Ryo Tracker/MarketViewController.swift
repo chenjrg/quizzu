@@ -112,3 +112,24 @@ class MarketViewController: UIViewController, UIPopoverPresentationControllerDel
         markPrice.text = formatNumber(number: mPrice)
         bidPrice.text = formatNumber(number: bPrice)
         askPrice.text = formatNumber(number: aPrice)
+        volume24h.text = formatNumber(number: volume)
+        low24h.text = formatNumber(number: lowPrice)
+        high24h.text = formatNumber(number: highPrice)
+    }
+    
+    func formatNumber(number: Double) -> String {
+        let numberFormatter = NumberFormatter()
+        if number < 100000 {
+            numberFormatter.locale = Locale(identifier: "en_US_POSIX")
+            numberFormatter.numberStyle = NumberFormatter.Style.currency
+            let formattedNumber = numberFormatter.string(from: NSNumber(value: number))
+            return formattedNumber!
+        } else {
+            numberFormatter.locale = Locale(identifier: "en_US Locale")
+            numberFormatter.numberStyle = NumberFormatter.Style.decimal
+            let formattedNumber = numberFormatter.string(from: NSNumber(value: number))
+            return formattedNumber!
+        }
+        
+    }
+    
