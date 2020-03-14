@@ -173,3 +173,25 @@ class MarketViewController: UIViewController, UIPopoverPresentationControllerDel
     
     fileprivate func updateCharts() {
         HTTPRequest.requestTradeBins(symbol: self.symbol, interval: self.interval, count: binCount) { tradeBins in
+            self.updateChartData(tradeBins: tradeBins)
+        }
+    }
+    
+    override func didRotate(from fromInterfaceOrientation: UIInterfaceOrientation) {
+        // increase number of bins if horizontal
+        switch UIDevice.current.orientation{
+        case .portrait:
+            binCount = 75
+        case .portraitUpsideDown:
+            binCount = 75
+        case .landscapeLeft:
+            binCount = 125
+        case .landscapeRight:
+            binCount = 125
+        default:
+            break
+        }
+        updateCharts()
+    }
+}
+
