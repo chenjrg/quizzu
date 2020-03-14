@@ -154,3 +154,22 @@ class MarketViewController: UIViewController, UIPopoverPresentationControllerDel
     @IBAction func segmentedControl(_ sender: UISegmentedControl) {
         
         switch sender.selectedSegmentIndex {
+        case 0:
+            interval = timeIntervals[0]
+        case 1:
+            interval = timeIntervals[1]
+        case 2:
+            interval = timeIntervals[2]
+        case 3:
+            interval = timeIntervals[3]
+        
+        default:
+            break
+        }
+        
+        updateCharts()
+ 
+    }
+    
+    fileprivate func updateCharts() {
+        HTTPRequest.requestTradeBins(symbol: self.symbol, interval: self.interval, count: binCount) { tradeBins in
