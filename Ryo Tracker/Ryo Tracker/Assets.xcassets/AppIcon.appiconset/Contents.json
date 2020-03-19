@@ -1,0 +1,10 @@
+
+{
+  "images" : [
+    {
+      "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "Logo-20@2x.png",
+      "scale" : "2x"
+    },
+    {
