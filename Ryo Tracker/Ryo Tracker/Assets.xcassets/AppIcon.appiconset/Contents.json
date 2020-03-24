@@ -82,3 +82,23 @@
     {
       "size" : "40x40",
       "idiom" : "ipad",
+      "filename" : "Logo-40@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "Logo-76.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "Logo-76@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "83.5x83.5",
+      "idiom" : "ipad",
+      "filename" : "Logo-83.5@2x.png",
+      "scale" : "2x"
