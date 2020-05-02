@@ -10,4 +10,4 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view
+                    <view key="view" contentMode="scaleToFill" id
