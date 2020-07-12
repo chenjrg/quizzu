@@ -85,3 +85,24 @@
                                         <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="0.49681613870000002" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                         <state key="normal" title="Network">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <state key="selected">
+                                            <color key="titleColor" red="0.43379752640000002" green="0.56916359790000004" blue="0.89633565989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Km6-86-j21" kind="show" id="p1R-l5-QNl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="XU6-fJ-Dab"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eYV-Nk-etc" customClass="CandleStickChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="94" width="375" height="419.5"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2Y-Es-A3R">
+                                <rect key="frame" x="0.0" y="513.5" width="375" height="35"/>
+                                <color key="backgroundColor" red="0.2315713509726543" green="0.79604219543147203" blue="0.24498184540294093" alpha="0.76987906678082196" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
