@@ -268,3 +268,22 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70.5" id="5lY-uZ-5lf"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84043524311292994" green="0.90521006953525696" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AoM-mm-gGL" secondAttribute="trailing" id="0Bl-lh-peo"/>
+                            <constraint firstItem="dOs-Hx-J7P" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2ps-Gw-uVB"/>
+                            <constraint firstItem="B2Y-Es-A3R" firstAttribute="top" secondItem="eYV-Nk-etc" secondAttribute="bottom" id="6N8-1R-AvA"/>
+                            <constraint firstItem="xok-EF-ikY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6Pr-mb-o1A"/>
+                            <constraint firstItem="AoM-mm-gGL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8Ea-0P-kKZ"/>
+                            <constraint firstItem="ztZ-kG-Msb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Aot-LE-4Mf"/>
+                            <constraint firstItem="tS1-3a-ovG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="79" id="CXi-27-dOb"/>
+                            <constraint firstItem="B2Y-Es-A3R" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="DDq-SH-4uY"/>
+                            <constraint firstItem="ztZ-kG-Msb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ETc-j3-dXq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eYV-Nk-etc" secondAttribute="trailing" id="F4w-pg-GVg"/>
+                            <constraint firstItem="B2Y-Es-A3R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FzN-KD-1nJ"/>
+                            <constraint firstItem="ztZ-kG-Msb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GB2-Zr-fXR"/>
+                            <constraint firstItem="x15-yL-mAd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ge7-0I-xP3"/>
+                            <constraint firstItem="eYV-Nk-etc" firstAttribute="top" secondItem="xok-EF-ikY" secondAttribute="bottom" id="OtL-dY-ELe"/>
