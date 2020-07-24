@@ -287,3 +287,20 @@
                             <constraint firstItem="ztZ-kG-Msb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GB2-Zr-fXR"/>
                             <constraint firstItem="x15-yL-mAd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ge7-0I-xP3"/>
                             <constraint firstItem="eYV-Nk-etc" firstAttribute="top" secondItem="xok-EF-ikY" secondAttribute="bottom" id="OtL-dY-ELe"/>
+                            <constraint firstItem="dOs-Hx-J7P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PEB-zr-5ro"/>
+                            <constraint firstItem="AoM-mm-gGL" firstAttribute="top" secondItem="dOs-Hx-J7P" secondAttribute="bottom" id="Yof-ij-3VC"/>
+                            <constraint firstItem="xok-EF-ikY" firstAttribute="top" secondItem="ztZ-kG-Msb" secondAttribute="bottom" id="ePP-pd-hKf"/>
+                            <constraint firstItem="eYV-Nk-etc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iYx-nK-4fw"/>
+                            <constraint firstItem="AoM-mm-gGL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="kGJ-PU-buP"/>
+                            <constraint firstItem="x15-yL-mAd" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="nEm-OF-0r8"/>
+                            <constraint firstItem="dOs-Hx-J7P" firstAttribute="top" secondItem="rlg-hj-V1Q" secondAttribute="bottom" id="pLV-vZ-2Pa"/>
+                            <constraint firstItem="xok-EF-ikY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pdl-Il-ncB"/>
+                            <constraint firstItem="tS1-3a-ovG" firstAttribute="top" secondItem="B2Y-Es-A3R" secondAttribute="bottom" constant="1.5" id="q55-3n-IcC"/>
+                            <constraint firstItem="x15-yL-mAd" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-2" id="qku-K9-NfZ"/>
+                            <constraint firstItem="rlg-hj-V1Q" firstAttribute="top" secondItem="B2Y-Es-A3R" secondAttribute="bottom" constant="2" id="riA-Az-r1v"/>
+                            <constraint firstItem="x15-yL-mAd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="s0S-Ye-gmb"/>
+                            <constraint firstItem="dOs-Hx-J7P" firstAttribute="top" secondItem="tS1-3a-ovG" secondAttribute="bottom" constant="0.5" id="zam-Cd-XdY"/>
+                            <constraint firstItem="rlg-hj-V1Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="3" id="zeV-d0-edt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
