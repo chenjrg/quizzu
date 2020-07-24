@@ -304,3 +304,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="askLabel" destination="7oJ-Nk-5d7" id="fqo-22-X9J"/>
+                        <outlet property="bidLabel" destination="pke-50-ibq" id="5D7-Ic-8Qx"/>
+                        <outlet property="candleStickChartView" destination="eYV-Nk-etc" id="OyY-Lq-cRP"/>
+                        <outlet property="changeLabel" destination="IuM-Js-EUe" id="XCl-pY-cPq"/>
+                        <outlet property="highLabel" destination="Get-EK-2eJ" id="Xcn-b3-fKI"/>
+                        <outlet property="lowLabel" destination="lAb-i4-e4V" id="8Tg-QP-cn1"/>
+                        <outlet property="priceLabel" destination="lWo-3n-GBD" id="0ew-N0-Nfe"/>
+                        <outlet property="volumeLabel" destination="YQq-ds-Ktf" id="ChI-uU-oK5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-76" y="102"/>
+        </scene>
