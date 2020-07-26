@@ -321,3 +321,16 @@
             </objects>
             <point key="canvasLocation" x="-76" y="102"/>
         </scene>
+        <!--News Controller-->
+        <scene sceneID="mMK-hb-mWz">
+            <objects>
+                <viewController id="qey-Vv-qEi" customClass="NewsController" customModule="Ryo_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mQc-H0-1Tq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="iq2-FN-W0g">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="665"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="8Rn-y0-BU9">
+                                <rect key="frame" x="0.0" y="20" width="375" height="40"/>
