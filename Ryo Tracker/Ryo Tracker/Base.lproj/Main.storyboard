@@ -424,3 +424,19 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84043524309999995" green="0.90521006950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="m4P-Iw-MHC" firstAttribute="trailing" secondItem="QRu-Gb-C1t" secondAttribute="trailing" id="46Z-Al-qBN"/>
+                            <constraint firstItem="iq2-FN-W0g" firstAttribute="leading" secondItem="m4P-Iw-MHC" secondAttribute="leading" id="8VT-eD-I8I"/>
+                            <constraint firstItem="QRu-Gb-C1t" firstAttribute="leading" secondItem="m4P-Iw-MHC" secondAttribute="leading" id="BFh-p5-hYZ"/>
+                            <constraint firstItem="QRu-Gb-C1t" firstAttribute="top" secondItem="M95-Fu-UhC" secondAttribute="bottom" id="Ddk-wt-W5D"/>
+                            <constraint firstItem="iq2-FN-W0g" firstAttribute="trailing" secondItem="m4P-Iw-MHC" secondAttribute="trailing" id="Fl3-JW-KFI"/>
+                            <constraint firstItem="iq2-FN-W0g" firstAttribute="top" secondItem="mQc-H0-1Tq" secondAttribute="top" id="Ho7-VG-6xm"/>
+                            <constraint firstItem="M95-Fu-UhC" firstAttribute="trailing" secondItem="m4P-Iw-MHC" secondAttribute="trailing" id="NI8-oz-GE6"/>
+                            <constraint firstItem="m4P-Iw-MHC" firstAttribute="bottom" secondItem="QRu-Gb-C1t" secondAttribute="bottom" id="Sqq-ti-Bz6"/>
+                            <constraint firstItem="8Rn-y0-BU9" firstAttribute="top" secondItem="m4P-Iw-MHC" secondAttribute="top" id="YGH-Np-72u"/>
+                            <constraint firstItem="M95-Fu-UhC" firstAttribute="leading" secondItem="m4P-Iw-MHC" secondAttribute="leading" id="c1v-Im-cYM"/>
