@@ -488,3 +488,22 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="4Cu-Lg-Zb8">
+                                <rect key="frame" x="110.5" y="348" width="154" height="51"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynD-8Q-6AH">
+                                        <rect key="frame" x="0.0" y="0.0" width="47" height="51"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="47" id="IIB-S3-n5y"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="28"/>
+                                        <state key="normal" title="Buy">
+                                            <color key="titleColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPb-Cv-5DE">
+                                        <rect key="frame" x="107" y="0.0" width="47" height="51"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="47" id="RFj-Rj-NFV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="28"/>
+                                        <state key="normal" title="Sell">
