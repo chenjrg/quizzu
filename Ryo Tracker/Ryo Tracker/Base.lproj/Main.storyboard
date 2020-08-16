@@ -507,3 +507,25 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="28"/>
                                         <state key="normal" title="Sell">
+                                            <color key="titleColor" red="1" green="0.081104041589353248" blue="0.079348655021241221" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="ciJ-Md-Gp6"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84043524309999995" green="0.90521006950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4Cu-Lg-Zb8" firstAttribute="centerY" secondItem="wlp-gP-NBu" secondAttribute="centerY" constant="40" id="5LK-d0-f5l"/>
+                            <constraint firstItem="95O-8T-5k1" firstAttribute="centerY" secondItem="wlp-gP-NBu" secondAttribute="centerY" constant="-20" id="dVN-Yj-y3F"/>
+                            <constraint firstItem="4Cu-Lg-Zb8" firstAttribute="centerX" secondItem="wlp-gP-NBu" secondAttribute="centerX" id="gH2-Sg-c7J"/>
+                            <constraint firstItem="WsK-f2-3YL" firstAttribute="trailing" secondItem="95O-8T-5k1" secondAttribute="trailing" constant="50" id="ga5-MR-xsp"/>
+                            <constraint firstItem="95O-8T-5k1" firstAttribute="leading" secondItem="WsK-f2-3YL" secondAttribute="leading" constant="50" id="xs6-p1-E4C"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WsK-f2-3YL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="83W-bz-mWz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
