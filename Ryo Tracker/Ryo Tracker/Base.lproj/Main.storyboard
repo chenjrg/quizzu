@@ -667,3 +667,29 @@
                                     </label>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="176.5" id="k05-mD-81O"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QcQ-JU-IBb">
+                                <rect key="frame" x="193.5" y="114" width="176.5" height="184"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="147944" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hy8-Qg-6zF">
+                                        <rect key="frame" x="0.0" y="0.0" width="176.5" height="38.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="176.5" id="fDZ-5R-bry"/>
+                                            <constraint firstAttribute="height" constant="38.5" id="ni0-kM-kDs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="28"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1856515918" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dga-ko-yc4">
+                                        <rect key="frame" x="0.0" y="48.5" width="176.5" height="38.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38.5" id="AEn-FG-44I"/>
+                                            <constraint firstAttribute="width" constant="176.5" id="Go4-hv-siz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="28"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
