@@ -713,3 +713,25 @@
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="176.5" id="2wm-yO-X0p"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cd877953ec5abf683c9d9ce61c22db99489606c31891702e8c2d55413e2837df" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGx-9Z-jss">
+                                <rect key="frame" x="5" y="318" width="365" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="ceh-Ok-WKu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="19"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84043524309999995" green="0.90521006950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IPy-SV-JbX" firstAttribute="leading" secondItem="J9q-Dd-y5I" secondAttribute="leading" id="6JA-im-or8"/>
+                            <constraint firstItem="IPy-SV-JbX" firstAttribute="top" secondItem="RPM-Bc-ryB" secondAttribute="bottom" id="8Cu-W3-851"/>
+                            <constraint firstItem="RPM-Bc-ryB" firstAttribute="leading" secondItem="J9q-Dd-y5I" secondAttribute="leading" id="D2e-Q1-tGz"/>
+                            <constraint firstItem="gou-78-7WE" firstAttribute="leading" secondItem="J9q-Dd-y5I" secondAttribute="leading" constant="5" id="FMH-Wm-SCz"/>
+                            <constraint firstItem="J9q-Dd-y5I" firstAttribute="trailing" secondItem="oGx-9Z-jss" secondAttribute="trailing" constant="5" id="HlC-NQ-bBT"/>
+                            <constraint firstItem="RPM-Bc-ryB" firstAttribute="trailing" secondItem="J9q-Dd-y5I" secondAttribute="trailing" id="Ikf-xg-LnD"/>
