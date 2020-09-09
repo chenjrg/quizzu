@@ -24,3 +24,24 @@ public class Exchange {
     
     init() {
         exchange = exchangeVal.tradeogre.rawValue
+    }
+    
+    public func getBaseURL() -> String {
+        return URLS[exchange]
+    }
+    
+    public func getTradeBinURL() -> String {
+        return tradeBinURLS[exchange]
+    }
+    
+    public func getTickerURL() -> String {
+        return tickerURLS[exchange]
+    }
+    
+    public func getExchangeName() -> String {
+        return exchangeNames[exchange]
+    }
+    
+    public func getExchange() -> Int {
+        return exchange
+    }
