@@ -735,3 +735,19 @@
                             <constraint firstItem="gou-78-7WE" firstAttribute="leading" secondItem="J9q-Dd-y5I" secondAttribute="leading" constant="5" id="FMH-Wm-SCz"/>
                             <constraint firstItem="J9q-Dd-y5I" firstAttribute="trailing" secondItem="oGx-9Z-jss" secondAttribute="trailing" constant="5" id="HlC-NQ-bBT"/>
                             <constraint firstItem="RPM-Bc-ryB" firstAttribute="trailing" secondItem="J9q-Dd-y5I" secondAttribute="trailing" id="Ikf-xg-LnD"/>
+                            <constraint firstItem="J9q-Dd-y5I" firstAttribute="trailing" secondItem="mCL-L4-ooU" secondAttribute="trailing" id="Lly-r5-tAx"/>
+                            <constraint firstItem="J9q-Dd-y5I" firstAttribute="trailing" secondItem="QcQ-JU-IBb" secondAttribute="trailing" constant="5" id="N1c-GU-y3W"/>
+                            <constraint firstItem="gou-78-7WE" firstAttribute="top" secondItem="IPy-SV-JbX" secondAttribute="bottom" constant="20" id="OG4-T5-tVq"/>
+                            <constraint firstItem="mCL-L4-ooU" firstAttribute="top" secondItem="aZU-P2-6sj" secondAttribute="top" id="PZT-x1-vcP"/>
+                            <constraint firstItem="RPM-Bc-ryB" firstAttribute="top" secondItem="J9q-Dd-y5I" secondAttribute="top" id="VZi-IN-7x3"/>
+                            <constraint firstItem="QcQ-JU-IBb" firstAttribute="top" secondItem="IPy-SV-JbX" secondAttribute="bottom" constant="20" id="bB7-vq-EC0"/>
+                            <constraint firstItem="oGx-9Z-jss" firstAttribute="leading" secondItem="J9q-Dd-y5I" secondAttribute="leading" constant="5" id="bb1-kK-IrD"/>
+                            <constraint firstItem="J9q-Dd-y5I" firstAttribute="bottom" secondItem="mCL-L4-ooU" secondAttribute="bottom" constant="-2" id="hM9-S0-sQn"/>
+                            <constraint firstItem="IPy-SV-JbX" firstAttribute="trailing" secondItem="J9q-Dd-y5I" secondAttribute="trailing" id="ovR-qV-zOd"/>
+                            <constraint firstItem="oGx-9Z-jss" firstAttribute="top" secondItem="gou-78-7WE" secondAttribute="bottom" constant="20" id="sOB-KH-ZVn"/>
+                            <constraint firstItem="mCL-L4-ooU" firstAttribute="leading" secondItem="J9q-Dd-y5I" secondAttribute="leading" id="vly-uw-FOr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="J9q-Dd-y5I"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
