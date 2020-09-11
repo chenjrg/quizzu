@@ -45,3 +45,8 @@ public class Exchange {
     public func getExchange() -> Int {
         return exchange
     }
+    
+    public func setExchange(exchangeVal: Int) {
+        exchange = exchangeVal
+    }
+}
