@@ -2,4 +2,4 @@
 //  HTTPRequests.swift
 //  tradr
 //
-//  Created by William R
+//  Created by William Ravenscroft on 0
