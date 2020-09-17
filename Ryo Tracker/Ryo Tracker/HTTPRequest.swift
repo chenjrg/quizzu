@@ -10,4 +10,6 @@ import Foundation
 import Alamofire
 
 class HTTPRequest {
-  
+    
+    //Ticker
+    stat
