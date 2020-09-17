@@ -7,4 +7,7 @@
 //
 
 import Foundation
-import Alam
+import Alamofire
+
+class HTTPRequest {
+  
