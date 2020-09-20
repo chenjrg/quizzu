@@ -12,4 +12,4 @@ import Alamofire
 class HTTPRequest {
     
     //Ticker
-    static func requestTicker(exchange: I
+    static func requestTicker(exchange: Int, url: String, ticke
