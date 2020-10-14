@@ -13,4 +13,4 @@ class HTTPRequest {
     
     //Ticker
     static func requestTicker(exchange: Int, url: String, tickerResponse: @escaping (Any) -> Void){
-        Al
+        Alamofire.request
