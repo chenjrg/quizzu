@@ -16,4 +16,4 @@ class HTTPRequest {
         Alamofire.request(url).responseString { response in
             
             let decoder = JSONDecoder()
-         
+            let jsonString = res
