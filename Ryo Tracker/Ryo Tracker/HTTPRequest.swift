@@ -15,4 +15,5 @@ class HTTPRequest {
     static func requestTicker(exchange: Int, url: String, tickerResponse: @escaping (Any) -> Void){
         Alamofire.request(url).responseString { response in
             
-            let decoder = JSO
+            let decoder = JSONDecoder()
+         
