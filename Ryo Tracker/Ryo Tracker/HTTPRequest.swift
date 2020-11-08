@@ -17,4 +17,5 @@ class HTTPRequest {
             
             let decoder = JSONDecoder()
             let jsonString = response.result.value
-            let jsonData = jsonString!.data
+            let jsonData = jsonString!.data(using: .utf8)!
+           
