@@ -19,4 +19,5 @@ class HTTPRequest {
             let jsonString = response.result.value
             let jsonData = jsonString!.data(using: .utf8)!
             if exchange == exchangeVal.tradeogre.rawValue {
-                let ticker = try! decoder.decode(TOTicker.self, from: jsonDat
+                let ticker = try! decoder.decode(TOTicker.self, from: jsonData)
+                t
