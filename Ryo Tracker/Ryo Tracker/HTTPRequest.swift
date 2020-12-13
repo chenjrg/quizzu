@@ -21,4 +21,5 @@ class HTTPRequest {
             if exchange == exchangeVal.tradeogre.rawValue {
                 let ticker = try! decoder.decode(TOTicker.self, from: jsonData)
                 tickerResponse(ticker)
-            } else if exchange == exchangeVal.maplechan
+            } else if exchange == exchangeVal.maplechange.rawValue {
+                
