@@ -23,4 +23,5 @@ class HTTPRequest {
                 tickerResponse(ticker)
             } else if exchange == exchangeVal.maplechange.rawValue {
                 let ticker = try! decoder.decode(MCTicker.self, from: jsonData)
-                ticker
+                tickerResponse(ticker)
+   
