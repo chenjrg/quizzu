@@ -26,4 +26,5 @@ class HTTPRequest {
                 tickerResponse(ticker)
             }
         
- 
+            
+   
