@@ -30,4 +30,4 @@ class HTTPRequest {
         }
     }
     
- 
+    static func requestTra
