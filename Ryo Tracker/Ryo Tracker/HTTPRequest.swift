@@ -30,4 +30,4 @@ class HTTPRequest {
         }
     }
     
-    static func requestTradeBin(exchange: Int
+    static func requestTradeBin(exchange: Int, url: String, tradeBinRes
