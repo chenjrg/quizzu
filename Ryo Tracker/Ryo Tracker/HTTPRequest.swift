@@ -31,4 +31,4 @@ class HTTPRequest {
     }
     
     static func requestTradeBin(exchange: Int, url: String, tradeBinResponse: @escaping (Any) -> Void){
-        Alamofir
+        Alamofire.request(url).responseSt
