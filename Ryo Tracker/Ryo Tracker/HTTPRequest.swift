@@ -30,4 +30,4 @@ class HTTPRequest {
         }
     }
     
-    static func requestTradeBin(exchange: Int, url: String, tradeBinResponse: @escaping 
+    static func requestTradeBin(exchange: Int, url: String, tradeBinResponse: @escaping (Any) -> Void)
