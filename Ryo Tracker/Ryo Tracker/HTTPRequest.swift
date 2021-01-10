@@ -33,4 +33,4 @@ class HTTPRequest {
     static func requestTradeBin(exchange: Int, url: String, tradeBinResponse: @escaping (Any) -> Void){
         Alamofire.request(url).responseString { response in
             
-     
+            let decoder = JSOND
