@@ -35,4 +35,4 @@ class HTTPRequest {
             
             let decoder = JSONDecoder()
             let jsonString = response.result.value
-            let jsonData = jsonString!.
+            let jsonData = jsonString!.data(using: .utf8)
