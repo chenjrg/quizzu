@@ -36,4 +36,6 @@ class HTTPRequest {
             let decoder = JSONDecoder()
             let jsonString = response.result.value
             let jsonData = jsonString!.data(using: .utf8)!
-            if exchange == exchangeVal.tradeogre.rawValue 
+            if exchange == exchangeVal.tradeogre.rawValue {
+                
+  
