@@ -39,4 +39,5 @@ class HTTPRequest {
             if exchange == exchangeVal.tradeogre.rawValue {
                 
                 let tradeBin = try! decoder.decode([TOTradeBin].self, from: jsonData)
-                tradeBinRes
+                tradeBinResponse(tradeBin)
+ 
