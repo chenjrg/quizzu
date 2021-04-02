@@ -41,4 +41,4 @@ class HTTPRequest {
                 let tradeBin = try! decoder.decode([TOTradeBin].self, from: jsonData)
                 tradeBinResponse(tradeBin)
             } else if exchange == exchangeVal.maplechange.rawValue {
-                let tradeBin = try! dec
+                let tradeBin = try! decoder.decode(MCTrade
