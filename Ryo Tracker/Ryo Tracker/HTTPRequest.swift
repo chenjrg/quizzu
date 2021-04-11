@@ -49,4 +49,4 @@ class HTTPRequest {
         }
     }
     
-    s
+    static func reque
