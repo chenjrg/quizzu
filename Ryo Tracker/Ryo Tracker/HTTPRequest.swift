@@ -49,4 +49,4 @@ class HTTPRequest {
         }
     }
     
-    static func reque
+    static func requestNetworkStatistics(networkRespons
