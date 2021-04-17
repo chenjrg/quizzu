@@ -49,4 +49,4 @@ class HTTPRequest {
         }
     }
     
-    static func requestNetworkStatistics(networkResponse: @escaping (Netw
+    static func requestNetworkStatistics(networkResponse: @escaping (NetworkStatistics) -> Voi
