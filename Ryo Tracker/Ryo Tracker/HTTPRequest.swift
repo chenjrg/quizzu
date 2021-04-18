@@ -50,4 +50,4 @@ class HTTPRequest {
     }
     
     static func requestNetworkStatistics(networkResponse: @escaping (NetworkStatistics) -> Void) {
-        Alamofire.requ
+        Alamofire.request("https://ryo.ha
