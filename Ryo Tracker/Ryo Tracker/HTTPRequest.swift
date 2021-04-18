@@ -49,4 +49,5 @@ class HTTPRequest {
         }
     }
     
-    static func requestNetworkStatistics(networkResponse: @escaping (NetworkStatistics) -> Voi
+    static func requestNetworkStatistics(networkResponse: @escaping (NetworkStatistics) -> Void) {
+        Alamofire.requ
