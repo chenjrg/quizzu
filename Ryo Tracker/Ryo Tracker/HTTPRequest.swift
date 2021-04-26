@@ -52,4 +52,4 @@ class HTTPRequest {
     static func requestNetworkStatistics(networkResponse: @escaping (NetworkStatistics) -> Void) {
         Alamofire.request("https://ryo.hashvault.pro/api/network/stats").responseString { response in
             let decoder = JSONDecoder()
-            let jsonS
+            let jsonString = response.result.
