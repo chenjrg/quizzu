@@ -53,4 +53,4 @@ class HTTPRequest {
         Alamofire.request("https://ryo.hashvault.pro/api/network/stats").responseString { response in
             let decoder = JSONDecoder()
             let jsonString = response.result.value
-          
+            let jsonData = js
