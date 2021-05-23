@@ -55,4 +55,5 @@ class HTTPRequest {
             let jsonString = response.result.value
             let jsonData = jsonString!.data(using: .utf8)!
             let networkStatistics = try! decoder.decode(NetworkStatistics.self, from: jsonData)
-            networ
+            networkResponse(networkStatistics)
+ 
