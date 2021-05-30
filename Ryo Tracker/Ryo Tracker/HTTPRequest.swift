@@ -58,4 +58,6 @@ class HTTPRequest {
             networkResponse(networkStatistics)
         }
         
-   
+    }
+    
+}
