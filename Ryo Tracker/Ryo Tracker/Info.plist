@@ -21,4 +21,5 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
-	<string>LaunchS
+	<string>LaunchScreen</string>
+	<
