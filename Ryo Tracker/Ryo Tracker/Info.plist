@@ -29,4 +29,5 @@
 		<string>armv7</string>
 	</array>
 	<key>UIStatusBarStyle</key>
-	<string>UIStatusBarSty
+	<string>UIStatusBarStyleDefault</string>
+	<ke
