@@ -32,4 +32,4 @@
 	<string>UIStatusBarStyleDefault</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
-		<string>UIInterf
+		<string>UIInterfaceOrientation
