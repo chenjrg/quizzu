@@ -1,3 +1,5 @@
 //
 //  JSONStructures.swift
-//  trad
+//  tradr
+//
+//  Created b
