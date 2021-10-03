@@ -1,2 +1,3 @@
 //
-//  JSONStructur
+//  JSONStructures.swift
+//  trad
