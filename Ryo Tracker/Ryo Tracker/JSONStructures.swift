@@ -2,4 +2,4 @@
 //  JSONStructures.swift
 //  tradr
 //
-//  Created b
+//  Created by William Ravenscro
