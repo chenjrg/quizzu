@@ -2,4 +2,5 @@
 //  JSONStructures.swift
 //  tradr
 //
-//  Created by William Ravenscro
+//  Created by William Ravenscroft on 09/05/2018.
+// 
