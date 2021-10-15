@@ -6,4 +6,6 @@
 //  Copyright © 2018 ZypherFX. All rights reserved.
 //
 
-import Foundatio
+import Foundation
+
+struct TOTicker : Coda
