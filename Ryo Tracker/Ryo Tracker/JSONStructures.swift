@@ -8,4 +8,5 @@
 
 import Foundation
 
-struct TOTicker : Coda
+struct TOTicker : Codable {
+    public var suc
