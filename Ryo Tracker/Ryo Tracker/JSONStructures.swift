@@ -9,4 +9,5 @@
 import Foundation
 
 struct TOTicker : Codable {
-    public var suc
+    public var success : Bool
+   
