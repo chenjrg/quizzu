@@ -10,4 +10,4 @@ import Foundation
 
 struct TOTicker : Codable {
     public var success : Bool
-   
+    public var initialpric
