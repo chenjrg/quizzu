@@ -15,4 +15,5 @@ struct TOTicker : Codable {
     public var high : String
     public var low : String
     public var volume : String
-    public va
+    public var bid : String
+    pub
