@@ -19,4 +19,4 @@ struct TOTicker : Codable {
     public var ask : String
 }
 
-s
+struct TOTradeBin 
