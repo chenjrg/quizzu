@@ -21,4 +21,5 @@ struct TOTicker : Codable {
 
 struct TOTradeBin : Codable {
     public var date : Int
-    public var type : St
+    public var type : String
+    public var price
