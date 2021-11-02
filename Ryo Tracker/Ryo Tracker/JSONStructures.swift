@@ -23,4 +23,4 @@ struct TOTradeBin : Codable {
     public var date : Int
     public var type : String
     public var price : String
-    pu
+    public var quantity : String
