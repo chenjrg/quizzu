@@ -24,3 +24,6 @@ struct TOTradeBin : Codable {
     public var type : String
     public var price : String
     public var quantity : String
+}
+
+struct MCTicker : Codab
