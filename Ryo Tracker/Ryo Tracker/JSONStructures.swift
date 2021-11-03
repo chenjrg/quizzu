@@ -26,4 +26,5 @@ struct TOTradeBin : Codable {
     public var quantity : String
 }
 
-struct MCTicker : Codab
+struct MCTicker : Codable {
+    public var
