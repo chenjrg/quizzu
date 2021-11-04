@@ -28,4 +28,4 @@ struct TOTradeBin : Codable {
 
 struct MCTicker : Codable {
     public var at : Int?
-    stru
+    struct ticker : Codabl
