@@ -28,4 +28,5 @@ struct TOTradeBin : Codable {
 
 struct MCTicker : Codable {
     public var at : Int?
-    struct ticker : Codabl
+    struct ticker : Codable {
+        public v
