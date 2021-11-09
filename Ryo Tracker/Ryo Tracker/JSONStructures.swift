@@ -32,4 +32,4 @@ struct MCTicker : Codable {
         public var buy : Double?
         public var sell : Double?
         public var low : Double?
-        public 
+        public var high : Double?
