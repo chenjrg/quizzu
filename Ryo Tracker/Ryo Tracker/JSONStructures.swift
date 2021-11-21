@@ -35,4 +35,5 @@ struct MCTicker : Codable {
         public var high : Double?
         public var last : Double?
         public var vol : Double?
-        public var volbtc : Do
+        public var volbtc : Double?
+       
