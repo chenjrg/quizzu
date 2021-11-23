@@ -38,3 +38,6 @@ struct MCTicker : Codable {
         public var volbtc : Double?
         public var change : Double?
     }
+}
+
+struct MCTradeBin
