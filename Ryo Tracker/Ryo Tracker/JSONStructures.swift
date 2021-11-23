@@ -40,4 +40,5 @@ struct MCTicker : Codable {
     }
 }
 
-struct MCTradeBin
+struct MCTradeBin : Codable {
+    public var
