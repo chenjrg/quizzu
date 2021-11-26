@@ -42,4 +42,5 @@ struct MCTicker : Codable {
 
 struct MCTradeBin : Codable {
     public var date : Int
-    public
+    public var type : String
+    p
