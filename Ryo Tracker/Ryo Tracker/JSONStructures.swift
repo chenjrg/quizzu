@@ -44,4 +44,7 @@ struct MCTradeBin : Codable {
     public var date : Int
     public var type : String
     public var price : String
-    public var quan
+    public var quantity : String
+}
+
+stru
