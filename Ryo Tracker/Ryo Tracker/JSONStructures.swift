@@ -47,4 +47,4 @@ struct MCTradeBin : Codable {
     public var quantity : String
 }
 
-stru
+struct NetworkStatistics : Cod
