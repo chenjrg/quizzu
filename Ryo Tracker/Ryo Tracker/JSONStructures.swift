@@ -48,4 +48,4 @@ struct MCTradeBin : Codable {
 }
 
 struct NetworkStatistics : Codable {
-    publi
+    public var difficulty : Double
