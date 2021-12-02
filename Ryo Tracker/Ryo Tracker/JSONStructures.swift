@@ -49,4 +49,5 @@ struct MCTradeBin : Codable {
 
 struct NetworkStatistics : Codable {
     public var difficulty : Double?
-    public var hash
+    public var hash : String?
+    public var 
