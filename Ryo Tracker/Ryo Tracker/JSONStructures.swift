@@ -51,4 +51,5 @@ struct NetworkStatistics : Codable {
     public var difficulty : Double?
     public var hash : String?
     public var height : Int?
-    public var reward : Doub
+    public var reward : Double?
+    publ
