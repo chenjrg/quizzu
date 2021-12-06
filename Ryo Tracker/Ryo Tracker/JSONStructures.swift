@@ -52,4 +52,4 @@ struct NetworkStatistics : Codable {
     public var hash : String?
     public var height : Int?
     public var reward : Double?
-    publ
+    public var timeStamp : Int?
