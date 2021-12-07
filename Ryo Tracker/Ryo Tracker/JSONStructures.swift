@@ -53,3 +53,6 @@ struct NetworkStatistics : Codable {
     public var height : Int?
     public var reward : Double?
     public var timeStamp : Int?
+}
+
+
