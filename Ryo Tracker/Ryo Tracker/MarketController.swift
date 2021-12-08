@@ -35,3 +35,22 @@ class MarketController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        changeLabel.text = inputLabel?.text
+        changeLabel.textColor = inputLabel?.textColor
+        
+        chartSetup()
+        
+        if chartData != nil {
+            updateChartData(ohlcForm: chartData!)
+        }
+        
+        // Send HTTP requests every 10 seconds to update data
+        requestTimer = Timer.scheduledTimer(withTimeInterval: 60, repeats: true) { timer in
+            
+            self.updateCharts()
+            
+            HTTPRequest.requestTicker(exchange: self.exchange.getExchange(), url: self.exchange.getTickerURL()) {ticker in
+                if self.exchange.getExchange() == exchangeVal.tradeogre.rawValue {
+                    let toTicker = ticker as! TOTicker
+                    self.priceLabel.text = "฿ "+toTicker.price
