@@ -79,3 +79,20 @@ class MarketController: UIViewController {
             
         }
         
+        requestTimer!.fire()
+        
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        requestTimer?.invalidate()
+        requestTimer = nil
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let newsController = segue.destination as? NewsController {
