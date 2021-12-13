@@ -113,3 +113,22 @@ class MarketController: UIViewController {
         candleStickChartView.xAxis.enabled = false
         candleStickChartView.legend.enabled = false
     }
+    
+    func updateChartData(ohlcForm: OHLCForm) {
+        
+        let yVals1 = (0..<ohlcForm.length-1).map { (i) -> CandleChartDataEntry in
+            let high = ohlcForm.high[i]
+            let low = ohlcForm.low[i]
+            let open = ohlcForm.open[i]
+            let close = ohlcForm.close[i]
+            
+            return CandleChartDataEntry(x: Double(i), shadowH: high, shadowL: low, open: open, close: close, icon: nil)
+        }
+        
+        let set1 = CandleChartDataSet(values: yVals1, label: "Data Set")
+        set1.axisDependency = .left
+        set1.setColor(UIColor(white: 80/255, alpha: 1))
+        set1.drawIconsEnabled = false
+        set1.decreasingColor = .red
+        set1.decreasingFilled = true
+        set1.increasingColor = UIColor(red: 122/255, green: 242/255, blue: 84/255, alpha: 1)
