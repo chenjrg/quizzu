@@ -96,3 +96,20 @@ class MarketController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let newsController = segue.destination as? NewsController {
+            newsController.inputLabel = changeLabel
+            newsController.chartData = chartData
+        }
+        if let networkController = segue.destination as? NetworkController {
+            networkController.inputLabel = changeLabel
+            networkController.chartData = chartData
+        }
+    }
+    
+    fileprivate func chartSetup() {
+        candleStickChartView.chartDescription?.text = "RYO-BTC"
+        candleStickChartView.pinchZoomEnabled = true
+        candleStickChartView.dragEnabled = true
+        candleStickChartView.rightAxis.enabled = false
+        candleStickChartView.xAxis.enabled = false
+        candleStickChartView.legend.enabled = false
+    }
