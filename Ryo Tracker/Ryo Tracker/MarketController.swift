@@ -132,3 +132,26 @@ class MarketController: UIViewController {
         set1.decreasingColor = .red
         set1.decreasingFilled = true
         set1.increasingColor = UIColor(red: 122/255, green: 242/255, blue: 84/255, alpha: 1)
+        set1.increasingFilled = true
+        set1.neutralColor = .darkGray
+        set1.shadowColorSameAsCandle = true
+        set1.drawValuesEnabled = false
+        
+        let data = CandleChartData(dataSet: set1)
+        candleStickChartView.data = data
+    }
+   
+    private func updateCharts() {
+        HTTPRequest.requestTradeBin(exchange: self.exchange.getExchange(), url: self.exchange.getTradeBinURL()) { tradeBin in
+            if self.exchange.getExchange() == exchangeVal.tradeogre.rawValue {
+                let toTradeBin = tradeBin as! [TOTradeBin]
+                let timeBucket = HourlyTimeBucket.init(tradeBin: toTradeBin, size: 50)
+                let ohlcForm = OHLCForm.init(hourlyBucket: timeBucket)
+                self.updateChartData(ohlcForm: ohlcForm)
+                self.chartData = ohlcForm
+            }
+        }
+    }
+
+
+}
