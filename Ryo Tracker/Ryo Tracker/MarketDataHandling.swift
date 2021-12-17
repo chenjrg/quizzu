@@ -62,3 +62,21 @@ struct HourlyTimeBucket {
                 if tradeDate >= bucketEndDate[i] { continue }
                 if tradeDate >= bucketStartDate[i] && tradeDate < bucketEndDate[i] {
                     if firstLoop == true {
+                        pricesBin[i][0] = Double(trade.price)!
+                        firstLoop = false
+                    } else {
+                        pricesBin[i].append(Double(trade.price)!)
+                    }
+                } else {
+                    
+                }
+            }
+        }
+        
+        //Find the first price if the first time bin is empty
+        var firstPrice = 0.0
+        let isFirstBinEmpty = (pricesBin[0] == [0.0])
+        if isFirstBinEmpty == true {
+            for prices in pricesBin {
+                if prices == [0.0] { continue }
+                if prices != [0.0] {
