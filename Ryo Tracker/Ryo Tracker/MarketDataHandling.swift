@@ -80,3 +80,27 @@ struct HourlyTimeBucket {
             for prices in pricesBin {
                 if prices == [0.0] { continue }
                 if prices != [0.0] {
+                    firstPrice = prices[0]
+                    break
+                }
+            }
+            pricesBin[0][0] = firstPrice
+        } else {
+            firstPrice = pricesBin[0][0]
+        }
+        
+        pricesBin = removeZeros(input: pricesBin)
+        
+    }
+    
+    // Fill in zero values with last values
+    func removeZeros(input: [[Double]]) -> [[Double]] {
+        var output = input
+        for i in 0...output.count-1 {
+            if output[i] == [0.0] {
+                output[i][0] = output[i-1][output[i-1].count-1]
+            }
+        }
+        return output
+    }
+    
