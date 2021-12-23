@@ -104,3 +104,5 @@ struct HourlyTimeBucket {
         return output
     }
     
+    
+}
