@@ -8,4 +8,6 @@
 
 import UIKit
 
-class NetworkController: UIViewController
+class NetworkController: UIViewController {
+
+    @IBOutlet 
