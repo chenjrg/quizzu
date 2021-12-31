@@ -10,4 +10,4 @@ import UIKit
 
 class NetworkController: UIViewController {
 
-    @IBOutlet 
+    @IBOutlet weak var changeLabe
