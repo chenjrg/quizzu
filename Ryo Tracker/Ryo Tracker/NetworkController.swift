@@ -11,4 +11,5 @@ import UIKit
 class NetworkController: UIViewController {
 
     @IBOutlet weak var changeLabel: UILabel!
-    public var inputLabel: UI
+    public var inputLabel: UILabel?
+    public var c
