@@ -12,4 +12,6 @@ class NetworkController: UIViewController {
 
     @IBOutlet weak var changeLabel: UILabel!
     public var inputLabel: UILabel?
-    public var c
+    public var chartData: OHLCForm?
+    
+ 
