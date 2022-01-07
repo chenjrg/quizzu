@@ -14,4 +14,5 @@ class NetworkController: UIViewController {
     public var inputLabel: UILabel?
     public var chartData: OHLCForm?
     
-    override func viewDidLoad() 
+    override func viewDidLoad() {
+        super.viewDid
