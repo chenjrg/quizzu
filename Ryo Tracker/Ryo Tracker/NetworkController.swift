@@ -15,4 +15,6 @@ class NetworkController: UIViewController {
     public var chartData: OHLCForm?
     
     override func viewDidLoad() {
-        super.viewDid
+        super.viewDidLoad()
+
+        // Do an
