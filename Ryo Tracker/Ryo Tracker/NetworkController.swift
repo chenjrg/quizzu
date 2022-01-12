@@ -18,4 +18,4 @@ class NetworkController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        changeLabel.text
+        changeLabel.text = inputLabel?.t
