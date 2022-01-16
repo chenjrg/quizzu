@@ -19,4 +19,7 @@ class NetworkController: UIViewController {
 
         // Do any additional setup after loading the view.
         changeLabel.text = inputLabel?.text
-        changeLabel.textColor = inputLabel?.textCo
+        changeLabel.textColor = inputLabel?.textColor
+    }
+
+    override 
