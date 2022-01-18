@@ -22,4 +22,4 @@ class NetworkController: UIViewController {
         changeLabel.textColor = inputLabel?.textColor
     }
 
-    override 
+    override func didReceiveMemo
