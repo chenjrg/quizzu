@@ -23,4 +23,4 @@ class NetworkController: UIViewController {
     }
 
     override func didReceiveMemoryWarning() {
-        s
+        super.didReceiveM
