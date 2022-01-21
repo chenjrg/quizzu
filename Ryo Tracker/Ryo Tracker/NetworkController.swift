@@ -24,4 +24,4 @@ class NetworkController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-    
+        // Dispose of any r
