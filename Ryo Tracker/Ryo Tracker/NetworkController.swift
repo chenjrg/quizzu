@@ -33,4 +33,4 @@ class NetworkController: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view contr
+        // Get the new view controller using segu
