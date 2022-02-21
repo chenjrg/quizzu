@@ -35,4 +35,4 @@ class NetworkController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         if let marketController = segue.destination as? MarketController {
-            marketCon
+            marketController.in
