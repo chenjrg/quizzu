@@ -36,4 +36,4 @@ class NetworkController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         if let marketController = segue.destination as? MarketController {
             marketController.inputLabel = changeLabel
-        
+            marketControll
