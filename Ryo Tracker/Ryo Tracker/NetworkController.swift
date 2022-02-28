@@ -37,3 +37,5 @@ class NetworkController: UIViewController {
         if let marketController = segue.destination as? MarketController {
             marketController.inputLabel = changeLabel
             marketController.chartData = chartData
+        }
+        if let new
