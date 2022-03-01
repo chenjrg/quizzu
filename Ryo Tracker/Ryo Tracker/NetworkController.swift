@@ -38,4 +38,4 @@ class NetworkController: UIViewController {
             marketController.inputLabel = changeLabel
             marketController.chartData = chartData
         }
-        if let newsController = segu
+        if let newsController = segue.destination as? N
