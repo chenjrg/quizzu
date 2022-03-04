@@ -39,3 +39,4 @@ class NetworkController: UIViewController {
             marketController.chartData = chartData
         }
         if let newsController = segue.destination as? NewsController {
+            
