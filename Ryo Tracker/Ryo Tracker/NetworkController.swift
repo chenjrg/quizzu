@@ -40,4 +40,4 @@ class NetworkController: UIViewController {
         }
         if let newsController = segue.destination as? NewsController {
             newsController.inputLabel = changeLabel
-     
+            newsControlle
