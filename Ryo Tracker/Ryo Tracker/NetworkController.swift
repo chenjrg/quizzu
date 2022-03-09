@@ -40,4 +40,6 @@ class NetworkController: UIViewController {
         }
         if let newsController = segue.destination as? NewsController {
             newsController.inputLabel = changeLabel
-            newsController.chartData = c
+            newsController.chartData = chartData
+        }
+    }
