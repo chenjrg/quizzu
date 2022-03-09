@@ -43,3 +43,6 @@ class NetworkController: UIViewController {
             newsController.chartData = chartData
         }
     }
+    
+
+}
