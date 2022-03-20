@@ -6,4 +6,6 @@
 //  Copyright © 2018 Zypher DX. All rights reserved.
 //
 
-impo
+import UIKit
+
+class New
