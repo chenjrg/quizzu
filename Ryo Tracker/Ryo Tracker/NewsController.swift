@@ -8,4 +8,6 @@
 
 import UIKit
 
-class NewsController: UIViewCo
+class NewsController: UIViewController {
+    
+  
