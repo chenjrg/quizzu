@@ -10,4 +10,4 @@ import UIKit
 
 class NewsController: UIViewController {
     
-  
+    @IBOutlet we
