@@ -11,4 +11,4 @@ import UIKit
 class NewsController: UIViewController {
     
     @IBOutlet weak var changeLabel: UILabel!
-    public
+    public var inputLa
