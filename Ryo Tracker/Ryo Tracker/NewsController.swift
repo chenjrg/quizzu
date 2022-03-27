@@ -13,3 +13,4 @@ class NewsController: UIViewController {
     @IBOutlet weak var changeLabel: UILabel!
     public var inputLabel: UILabel?
     
+    //data storage for 
