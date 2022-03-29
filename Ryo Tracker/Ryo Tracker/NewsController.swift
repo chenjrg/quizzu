@@ -14,4 +14,4 @@ class NewsController: UIViewController {
     public var inputLabel: UILabel?
     
     //data storage for view change
-    public var ch
+    public var chartData: OHLCForm?
