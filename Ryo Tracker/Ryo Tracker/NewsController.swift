@@ -16,4 +16,5 @@ class NewsController: UIViewController {
     //data storage for view change
     public var chartData: OHLCForm?
     
-    override func
+    override func viewDidLoad() {
+        super
