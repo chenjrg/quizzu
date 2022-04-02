@@ -17,4 +17,5 @@ class NewsController: UIViewController {
     public var chartData: OHLCForm?
     
     override func viewDidLoad() {
-        super
+        super.viewDidLoad()
+     
