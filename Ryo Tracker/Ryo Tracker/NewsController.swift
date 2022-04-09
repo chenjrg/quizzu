@@ -21,3 +21,4 @@ class NewsController: UIViewController {
        
         // Do any additional setup after loading the view.
         changeLabel.textColor = inputLabel?.textColor
+        changeLab
