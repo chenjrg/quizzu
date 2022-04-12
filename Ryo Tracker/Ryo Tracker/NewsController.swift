@@ -25,4 +25,4 @@ class NewsController: UIViewController {
         
     }
 
-   
+    override func didRece
