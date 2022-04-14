@@ -26,3 +26,4 @@ class NewsController: UIViewController {
     }
 
     override func didReceiveMemoryWarning() {
+        super.didRece
