@@ -30,4 +30,4 @@ class NewsController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    ove
+    override func prepare
