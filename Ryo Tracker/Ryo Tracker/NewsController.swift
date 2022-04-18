@@ -30,4 +30,4 @@ class NewsController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prepare(for segue: UIStoryboar
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) 
