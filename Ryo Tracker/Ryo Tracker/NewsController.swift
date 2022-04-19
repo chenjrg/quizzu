@@ -31,4 +31,4 @@ class NewsController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let marketContro
+        if let marketController = segue.destin
