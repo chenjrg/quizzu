@@ -32,4 +32,4 @@ class NewsController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let marketController = segue.destination as? MarketController {
-            marketController
+            marketController.inputLabel = change
