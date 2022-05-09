@@ -33,4 +33,5 @@ class NewsController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let marketController = segue.destination as? MarketController {
             marketController.inputLabel = changeLabel
-            marketController.chartData
+            marketController.chartData = chartData
+        }
