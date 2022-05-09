@@ -35,3 +35,4 @@ class NewsController: UIViewController {
             marketController.inputLabel = changeLabel
             marketController.chartData = chartData
         }
+        if let networkCon
