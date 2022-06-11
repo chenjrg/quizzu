@@ -36,4 +36,5 @@ class NewsController: UIViewController {
             marketController.chartData = chartData
         }
         if let networkController = segue.destination as? NetworkController {
-            networkController.in
+            networkController.inputLabel = changeLabel
+   
