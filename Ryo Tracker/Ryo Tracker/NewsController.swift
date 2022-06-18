@@ -38,4 +38,7 @@ class NewsController: UIViewController {
         if let networkController = segue.destination as? NetworkController {
             networkController.inputLabel = changeLabel
             networkController.chartData = chartData
-      
+        }
+    }
+
+}
