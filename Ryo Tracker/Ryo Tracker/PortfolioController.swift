@@ -10,4 +10,5 @@ import UIKit
 
 class PortfolioController: UIViewController {
 
-    override func vi
+    override func viewDidLoad() {
+ 
