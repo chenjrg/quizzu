@@ -11,4 +11,6 @@ import UIKit
 class PortfolioController: UIViewController {
 
     override func viewDidLoad() {
-        super.view
+        super.viewDidLoad()
+
+        // Do a
