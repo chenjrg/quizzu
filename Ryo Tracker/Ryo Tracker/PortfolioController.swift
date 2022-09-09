@@ -17,4 +17,4 @@ class PortfolioController: UIViewController {
     }
 
     override func didReceiveMemoryWarning() {
-        su
+        super.didReceiveMemoryWarning(
