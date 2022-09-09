@@ -16,4 +16,5 @@ class PortfolioController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarn
+    override func didReceiveMemoryWarning() {
+        su
