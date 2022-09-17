@@ -18,4 +18,4 @@ class PortfolioController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resourc
+        // Dispose of any resources that can be recrea
