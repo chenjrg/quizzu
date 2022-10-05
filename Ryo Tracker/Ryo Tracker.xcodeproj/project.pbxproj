@@ -8,3 +8,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE4BBB5B20D9969C000AADA2 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BBB5A20D9969C000AADA2 /* Exchange.swift */; };
+		BE4BEB4E20C83A7400CD1032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BEB4D20C83A7400CD1032 /* AppDelegate.swift */; };
+		BE4BEB5020C83A7400CD1032 /* MarketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BEB4F20C83A7400CD1032 /* MarketController.swift */; };
+		BE4BEB5320C83A7400CD1032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4BEB5120C83A7400CD1032 /* Main.storyboard */; };
+		BE4BEB5520C83A7400CD1032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4BEB5420C83A7400CD1032 /* Assets.xcassets */; };
+		BE4BEB5820C83A7400CD1032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4BEB5620C83A7400CD1032 /* LaunchScreen.storyboard */; };
+		BE4BEB6320C83A7400CD1032 /* Ryo_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BEB6220C83A7400CD1032 /* Ryo_TrackerTests.swift */; };
+		BE4BEB6E20C83A7400CD1032 /* Ryo_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BEB6D20C83A7400CD1032 /* Ryo_TrackerUITests.swift */; };
+		BE4BEB7C20C83D2000CD1032 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BEB7B20C83D2000CD1032 /* HTTPRequest.swift */; };
+		BE4BEB7E20C83D3700CD1032 /* JSONStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BEB7D20C83D3700CD1032 /* JSONStructures.swift */; };
+		BE5C6D8F20E962A0003B15D6 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5C6D8E20E962A0003B15D6 /* NetworkController.swift */; };
+		BE5C6D9920E9845B003B15D6 /* NetworkDataHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5C6D9820E9845B003B15D6 /* NetworkDataHandling.swift */; };
+		BE5C6D9F20E98A1D003B15D6 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = BE5C6D9E20E98A1D003B15D6 /* Background.png */; };
+		BE7833F020E6E10F0083196A /* PortfolioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7833EF20E6E10F0083196A /* PortfolioController.swift */; };
+		BE79958A20E2F3C200A6A3BB /* MarketDataHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE79958920E2F3C200A6A3BB /* MarketDataHandling.swift */; };
+		BE79958E20E4D25900A6A3BB /* Header.png in Resources */ = {isa = PBXBuildFile; fileRef = BE79958D20E4D25800A6A3BB /* Header.png */; };
