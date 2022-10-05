@@ -26,3 +26,8 @@ func roundDownStart(date: Date) -> Date {
     newDate = Calendar.current.date(byAdding: .second, value: -second, to: newDate)!
     return newDate
 }
+
+// Convert unix time stamp to date
+func unixToDate(unixTimeStamp: Int) -> Date {
+    return Date(timeIntervalSince1970: Double(unixTimeStamp))
+}
