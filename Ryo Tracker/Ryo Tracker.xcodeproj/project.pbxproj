@@ -24,3 +24,30 @@
 		BE7833F020E6E10F0083196A /* PortfolioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7833EF20E6E10F0083196A /* PortfolioController.swift */; };
 		BE79958A20E2F3C200A6A3BB /* MarketDataHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE79958920E2F3C200A6A3BB /* MarketDataHandling.swift */; };
 		BE79958E20E4D25900A6A3BB /* Header.png in Resources */ = {isa = PBXBuildFile; fileRef = BE79958D20E4D25800A6A3BB /* Header.png */; };
+		BEAA087A20E4D51C008AEDA9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAA086C20E4D50C008AEDA9 /* Alamofire.framework */; };
+		BEAA08A620E516DB008AEDA9 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAA088120E4D525008AEDA9 /* Charts.framework */; };
+		BEAA08A720E516DB008AEDA9 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEAA088120E4D525008AEDA9 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEAA08AB20E516DB008AEDA9 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEAA086C20E4D50C008AEDA9 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEAA08E720E58141008AEDA9 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA08E620E58141008AEDA9 /* UtilityFunctions.swift */; };
+		BEAA08EF20E59885008AEDA9 /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA08EE20E59885008AEDA9 /* NewsController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE4BEB5F20C83A7400CD1032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4BEB4220C83A7300CD1032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE4BEB4920C83A7400CD1032;
+			remoteInfo = "Ryo Tracker";
+		};
+		BE4BEB6A20C83A7400CD1032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4BEB4220C83A7300CD1032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE4BEB4920C83A7400CD1032;
+			remoteInfo = "Ryo Tracker";
+		};
+		BEAA086B20E4D50C008AEDA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEAA086020E4D50B008AEDA9 /* Alamofire.xcodeproj */;
+			proxyType = 2;
