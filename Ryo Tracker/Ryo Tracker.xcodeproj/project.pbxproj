@@ -132,3 +132,30 @@
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
+			files = (
+				BEAA08A720E516DB008AEDA9 /* Charts.framework in Embed Frameworks */,
+				BEAA08AB20E516DB008AEDA9 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE4BBB5A20D9969C000AADA2 /* Exchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exchange.swift; sourceTree = "<group>"; };
+		BE4BEB4A20C83A7400CD1032 /* Ryo Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ryo Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4BEB4D20C83A7400CD1032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE4BEB4F20C83A7400CD1032 /* MarketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketController.swift; sourceTree = "<group>"; };
+		BE4BEB5220C83A7400CD1032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE4BEB5420C83A7400CD1032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE4BEB5720C83A7400CD1032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE4BEB5920C83A7400CD1032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4BEB5E20C83A7400CD1032 /* Ryo TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ryo TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4BEB6220C83A7400CD1032 /* Ryo_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ryo_TrackerTests.swift; sourceTree = "<group>"; };
+		BE4BEB6420C83A7400CD1032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4BEB6920C83A7400CD1032 /* Ryo TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ryo TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4BEB6D20C83A7400CD1032 /* Ryo_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ryo_TrackerUITests.swift; sourceTree = "<group>"; };
+		BE4BEB6F20C83A7400CD1032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4BEB7B20C83D2000CD1032 /* HTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		BE4BEB7D20C83D3700CD1032 /* JSONStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONStructures.swift; sourceTree = "<group>"; };
+		BE5C6D8E20E962A0003B15D6 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
