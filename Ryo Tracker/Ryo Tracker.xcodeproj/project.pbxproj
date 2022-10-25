@@ -179,3 +179,34 @@
 				BEAA087A20E4D51C008AEDA9 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4BEB5B20C83A7400CD1032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4BEB6620C83A7400CD1032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE4BEB4120C83A7300CD1032 = {
+			isa = PBXGroup;
+			children = (
+				BEAA087B20E4D524008AEDA9 /* Charts.xcodeproj */,
+				BEAA086020E4D50B008AEDA9 /* Alamofire.xcodeproj */,
+				BE4BEB4C20C83A7400CD1032 /* Ryo Tracker */,
+				BE4BEB6120C83A7400CD1032 /* Ryo TrackerTests */,
+				BE4BEB6C20C83A7400CD1032 /* Ryo TrackerUITests */,
+				BE4BEB4B20C83A7400CD1032 /* Products */,
+				BEAA087920E4D51C008AEDA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
