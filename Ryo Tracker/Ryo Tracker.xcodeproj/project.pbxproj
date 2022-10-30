@@ -226,3 +226,25 @@
 				BE4BEB5920C83A7400CD1032 /* Info.plist */,
 				BE79958D20E4D25800A6A3BB /* Header.png */,
 				BE4BEB4D20C83A7400CD1032 /* AppDelegate.swift */,
+				BE4BBB5A20D9969C000AADA2 /* Exchange.swift */,
+				BE4BEB7B20C83D2000CD1032 /* HTTPRequest.swift */,
+				BE4BEB7D20C83D3700CD1032 /* JSONStructures.swift */,
+				BE5C6D9E20E98A1D003B15D6 /* Background.png */,
+				BE4BEB4F20C83A7400CD1032 /* MarketController.swift */,
+				BE79958920E2F3C200A6A3BB /* MarketDataHandling.swift */,
+				BE5C6D8E20E962A0003B15D6 /* NetworkController.swift */,
+				BE5C6D9820E9845B003B15D6 /* NetworkDataHandling.swift */,
+				BEAA08EE20E59885008AEDA9 /* NewsController.swift */,
+				BE7833EF20E6E10F0083196A /* PortfolioController.swift */,
+				BEAA08E620E58141008AEDA9 /* UtilityFunctions.swift */,
+				BE4BEB5420C83A7400CD1032 /* Assets.xcassets */,
+				BE4BEB5620C83A7400CD1032 /* LaunchScreen.storyboard */,
+				BE4BEB5120C83A7400CD1032 /* Main.storyboard */,
+			);
+			path = "Ryo Tracker";
+			sourceTree = "<group>";
+		};
+		BE4BEB6120C83A7400CD1032 /* Ryo TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE4BEB6220C83A7400CD1032 /* Ryo_TrackerTests.swift */,
