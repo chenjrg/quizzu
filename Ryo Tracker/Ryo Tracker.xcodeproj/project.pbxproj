@@ -248,3 +248,24 @@
 			isa = PBXGroup;
 			children = (
 				BE4BEB6220C83A7400CD1032 /* Ryo_TrackerTests.swift */,
+				BE4BEB6420C83A7400CD1032 /* Info.plist */,
+			);
+			path = "Ryo TrackerTests";
+			sourceTree = "<group>";
+		};
+		BE4BEB6C20C83A7400CD1032 /* Ryo TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE4BEB6D20C83A7400CD1032 /* Ryo_TrackerUITests.swift */,
+				BE4BEB6F20C83A7400CD1032 /* Info.plist */,
+			);
+			path = "Ryo TrackerUITests";
+			sourceTree = "<group>";
+		};
+		BEAA086120E4D50B008AEDA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEAA086C20E4D50C008AEDA9 /* Alamofire.framework */,
+				BEAA086E20E4D50C008AEDA9 /* Alamofire iOS Tests.xctest */,
+				BEAA087020E4D50C008AEDA9 /* Alamofire.framework */,
+				BEAA087220E4D50C008AEDA9 /* Alamofire macOS Tests.xctest */,
