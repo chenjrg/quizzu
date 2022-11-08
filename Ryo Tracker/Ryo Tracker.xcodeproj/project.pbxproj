@@ -269,3 +269,31 @@
 				BEAA086E20E4D50C008AEDA9 /* Alamofire iOS Tests.xctest */,
 				BEAA087020E4D50C008AEDA9 /* Alamofire.framework */,
 				BEAA087220E4D50C008AEDA9 /* Alamofire macOS Tests.xctest */,
+				BEAA087420E4D50C008AEDA9 /* Alamofire.framework */,
+				BEAA087620E4D50C008AEDA9 /* Alamofire tvOS Tests.xctest */,
+				BEAA087820E4D50C008AEDA9 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEAA087920E4D51C008AEDA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEAA087C20E4D524008AEDA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEAA088120E4D525008AEDA9 /* Charts.framework */,
+				BEAA088320E4D525008AEDA9 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE4BEB4920C83A7400CD1032 /* Ryo Tracker */ = {
+			isa = PBXNativeTarget;
