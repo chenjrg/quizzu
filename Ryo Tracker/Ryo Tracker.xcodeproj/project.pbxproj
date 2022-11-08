@@ -297,3 +297,25 @@
 /* Begin PBXNativeTarget section */
 		BE4BEB4920C83A7400CD1032 /* Ryo Tracker */ = {
 			isa = PBXNativeTarget;
+			buildConfigurationList = BE4BEB7220C83A7400CD1032 /* Build configuration list for PBXNativeTarget "Ryo Tracker" */;
+			buildPhases = (
+				BE4BEB4620C83A7400CD1032 /* Sources */,
+				BE4BEB4720C83A7400CD1032 /* Frameworks */,
+				BE4BEB4820C83A7400CD1032 /* Resources */,
+				BE4BBB5920D994A9000AADA2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEAA08A920E516DB008AEDA9 /* PBXTargetDependency */,
+				BEAA08AD20E516DB008AEDA9 /* PBXTargetDependency */,
+			);
+			name = "Ryo Tracker";
+			productName = "Ryo Tracker";
+			productReference = BE4BEB4A20C83A7400CD1032 /* Ryo Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE4BEB5D20C83A7400CD1032 /* Ryo TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4BEB7520C83A7400CD1032 /* Build configuration list for PBXNativeTarget "Ryo TrackerTests" */;
+			buildPhases = (
