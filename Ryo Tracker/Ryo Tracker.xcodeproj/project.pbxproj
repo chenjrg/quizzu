@@ -319,3 +319,23 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE4BEB7520C83A7400CD1032 /* Build configuration list for PBXNativeTarget "Ryo TrackerTests" */;
 			buildPhases = (
+				BE4BEB5A20C83A7400CD1032 /* Sources */,
+				BE4BEB5B20C83A7400CD1032 /* Frameworks */,
+				BE4BEB5C20C83A7400CD1032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE4BEB6020C83A7400CD1032 /* PBXTargetDependency */,
+			);
+			name = "Ryo TrackerTests";
+			productName = "Ryo TrackerTests";
+			productReference = BE4BEB5E20C83A7400CD1032 /* Ryo TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE4BEB6820C83A7400CD1032 /* Ryo TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4BEB7820C83A7400CD1032 /* Build configuration list for PBXNativeTarget "Ryo TrackerUITests" */;
+			buildPhases = (
+				BE4BEB6520C83A7400CD1032 /* Sources */,
+				BE4BEB6620C83A7400CD1032 /* Frameworks */,
