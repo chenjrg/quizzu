@@ -361,3 +361,25 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Zypher DX";
 				TargetAttributes = {
+					BE4BEB4920C83A7400CD1032 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+					BE4BEB5D20C83A7400CD1032 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BE4BEB4920C83A7400CD1032;
+					};
+					BE4BEB6820C83A7400CD1032 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BE4BEB4920C83A7400CD1032;
+					};
+				};
+			};
+			buildConfigurationList = BE4BEB4520C83A7300CD1032 /* Build configuration list for PBXProject "Ryo Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
