@@ -339,3 +339,25 @@
 			buildPhases = (
 				BE4BEB6520C83A7400CD1032 /* Sources */,
 				BE4BEB6620C83A7400CD1032 /* Frameworks */,
+				BE4BEB6720C83A7400CD1032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE4BEB6B20C83A7400CD1032 /* PBXTargetDependency */,
+			);
+			name = "Ryo TrackerUITests";
+			productName = "Ryo TrackerUITests";
+			productReference = BE4BEB6920C83A7400CD1032 /* Ryo TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE4BEB4220C83A7300CD1032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Zypher DX";
+				TargetAttributes = {
