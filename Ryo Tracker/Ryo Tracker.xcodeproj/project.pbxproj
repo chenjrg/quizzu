@@ -383,3 +383,21 @@
 				en,
 				Base,
 			);
+			mainGroup = BE4BEB4120C83A7300CD1032;
+			productRefGroup = BE4BEB4B20C83A7400CD1032 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BEAA086120E4D50B008AEDA9 /* Products */;
+					ProjectRef = BEAA086020E4D50B008AEDA9 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = BEAA087C20E4D524008AEDA9 /* Products */;
+					ProjectRef = BEAA087B20E4D524008AEDA9 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BE4BEB4920C83A7400CD1032 /* Ryo Tracker */,
+				BE4BEB5D20C83A7400CD1032 /* Ryo TrackerTests */,
+				BE4BEB6820C83A7400CD1032 /* Ryo TrackerUITests */,
