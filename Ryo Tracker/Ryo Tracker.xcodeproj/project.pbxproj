@@ -401,3 +401,22 @@
 				BE4BEB4920C83A7400CD1032 /* Ryo Tracker */,
 				BE4BEB5D20C83A7400CD1032 /* Ryo TrackerTests */,
 				BE4BEB6820C83A7400CD1032 /* Ryo TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BEAA086C20E4D50C008AEDA9 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = BEAA086B20E4D50C008AEDA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BEAA086E20E4D50C008AEDA9 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = BEAA086D20E4D50C008AEDA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
