@@ -436,3 +436,23 @@
 		};
 		BEAA087420E4D50C008AEDA9 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = BEAA087320E4D50C008AEDA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BEAA087620E4D50C008AEDA9 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = BEAA087520E4D50C008AEDA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BEAA087820E4D50C008AEDA9 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = BEAA087720E4D50C008AEDA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BEAA088120E4D525008AEDA9 /* Charts.framework */ = {
