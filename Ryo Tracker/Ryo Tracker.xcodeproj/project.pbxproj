@@ -420,3 +420,19 @@
 			remoteRef = BEAA086D20E4D50C008AEDA9 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		BEAA087020E4D50C008AEDA9 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = BEAA086F20E4D50C008AEDA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BEAA087220E4D50C008AEDA9 /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = BEAA087120E4D50C008AEDA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BEAA087420E4D50C008AEDA9 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
