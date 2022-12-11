@@ -472,3 +472,19 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BE4BEB4820C83A7400CD1032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4BEB5820C83A7400CD1032 /* LaunchScreen.storyboard in Resources */,
+				BE4BEB5520C83A7400CD1032 /* Assets.xcassets in Resources */,
+				BE5C6D9F20E98A1D003B15D6 /* Background.png in Resources */,
+				BE79958E20E4D25900A6A3BB /* Header.png in Resources */,
+				BE4BEB5320C83A7400CD1032 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4BEB5C20C83A7400CD1032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
