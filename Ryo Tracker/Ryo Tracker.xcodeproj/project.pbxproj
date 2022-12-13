@@ -507,3 +507,19 @@
 			files = (
 				BE5C6D8F20E962A0003B15D6 /* NetworkController.swift in Sources */,
 				BEAA08EF20E59885008AEDA9 /* NewsController.swift in Sources */,
+				BE4BEB7C20C83D2000CD1032 /* HTTPRequest.swift in Sources */,
+				BE5C6D9920E9845B003B15D6 /* NetworkDataHandling.swift in Sources */,
+				BE4BBB5B20D9969C000AADA2 /* Exchange.swift in Sources */,
+				BE79958A20E2F3C200A6A3BB /* MarketDataHandling.swift in Sources */,
+				BE4BEB7E20C83D3700CD1032 /* JSONStructures.swift in Sources */,
+				BE4BEB5020C83A7400CD1032 /* MarketController.swift in Sources */,
+				BEAA08E720E58141008AEDA9 /* UtilityFunctions.swift in Sources */,
+				BE4BEB4E20C83A7400CD1032 /* AppDelegate.swift in Sources */,
+				BE7833F020E6E10F0083196A /* PortfolioController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4BEB5A20C83A7400CD1032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
