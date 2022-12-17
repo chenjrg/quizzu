@@ -539,3 +539,23 @@
 
 /* Begin PBXTargetDependency section */
 		BE4BEB6020C83A7400CD1032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE4BEB4920C83A7400CD1032 /* Ryo Tracker */;
+			targetProxy = BE4BEB5F20C83A7400CD1032 /* PBXContainerItemProxy */;
+		};
+		BE4BEB6B20C83A7400CD1032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE4BEB4920C83A7400CD1032 /* Ryo Tracker */;
+			targetProxy = BE4BEB6A20C83A7400CD1032 /* PBXContainerItemProxy */;
+		};
+		BEAA08A920E516DB008AEDA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = BEAA08A820E516DB008AEDA9 /* PBXContainerItemProxy */;
+		};
+		BEAA08AD20E516DB008AEDA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = BEAA08AC20E516DB008AEDA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
