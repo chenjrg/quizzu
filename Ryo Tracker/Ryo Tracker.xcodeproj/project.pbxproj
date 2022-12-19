@@ -559,3 +559,20 @@
 			targetProxy = BEAA08AC20E516DB008AEDA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE4BEB5120C83A7400CD1032 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE4BEB5220C83A7400CD1032 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE4BEB5620C83A7400CD1032 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE4BEB5720C83A7400CD1032 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
