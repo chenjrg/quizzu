@@ -795,3 +795,13 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Ryo Tracker";
 			};
+			name = Debug;
+		};
+		BE4BEB7A20C83A7400CD1032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W6H3KU599;
+				INFOPLIST_FILE = "Ryo TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
