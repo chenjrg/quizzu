@@ -853,3 +853,10 @@
 				BE4BEB7920C83A7400CD1032 /* Debug */,
 				BE4BEB7A20C83A7400CD1032 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE4BEB4220C83A7300CD1032 /* Project object */;
+}
