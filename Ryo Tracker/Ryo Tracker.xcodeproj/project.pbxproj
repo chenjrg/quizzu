@@ -831,3 +831,25 @@
 		};
 		BE4BEB7220C83A7400CD1032 /* Build configuration list for PBXNativeTarget "Ryo Tracker" */ = {
 			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4BEB7320C83A7400CD1032 /* Debug */,
+				BE4BEB7420C83A7400CD1032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4BEB7520C83A7400CD1032 /* Build configuration list for PBXNativeTarget "Ryo TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4BEB7620C83A7400CD1032 /* Debug */,
+				BE4BEB7720C83A7400CD1032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4BEB7820C83A7400CD1032 /* Build configuration list for PBXNativeTarget "Ryo TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4BEB7920C83A7400CD1032 /* Debug */,
+				BE4BEB7A20C83A7400CD1032 /* Release */,
+			);
