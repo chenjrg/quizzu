@@ -13,4 +13,5 @@
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
-	<string>BNDL</
+	<string>BNDL</string>
+	<key>CFBu
