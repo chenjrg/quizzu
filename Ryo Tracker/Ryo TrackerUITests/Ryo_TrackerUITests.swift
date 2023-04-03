@@ -8,4 +8,5 @@
 
 import XCTest
 
-class Ryo_TrackerUIT
+class Ryo_TrackerUITests: XCTestCase {
+       
