@@ -7,3 +7,5 @@
 //
 
 import XCTest
+
+class Ryo_TrackerUIT
