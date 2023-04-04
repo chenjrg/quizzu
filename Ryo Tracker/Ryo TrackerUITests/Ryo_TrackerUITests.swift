@@ -10,4 +10,5 @@ import XCTest
 
 class Ryo_TrackerUITests: XCTestCase {
         
-    override fun
+    override func setUp() {
+        super.setUp()
