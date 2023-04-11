@@ -17,4 +17,4 @@ class Ryo_TrackerUITests: XCTestCase {
         
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-        // UI tests must launch the application that they 
+        // UI tests must launch the application that they test. Doing this in setup
