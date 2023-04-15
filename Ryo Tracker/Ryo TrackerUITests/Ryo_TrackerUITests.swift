@@ -24,4 +24,4 @@ class Ryo_TrackerUITests: XCTestCase {
     }
     
     override func tearDown() {
-        // Put teardo
+        // Put teardown code here. This me
