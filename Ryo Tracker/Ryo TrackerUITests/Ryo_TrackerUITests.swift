@@ -28,4 +28,5 @@ class Ryo_TrackerUITests: XCTestCase {
         super.tearDown()
     }
     
-    func test
+    func testExample() {
+        // Use 
