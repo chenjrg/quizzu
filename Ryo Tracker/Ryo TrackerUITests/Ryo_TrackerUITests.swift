@@ -29,4 +29,4 @@ class Ryo_TrackerUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get s
+        // Use recording to get started writing 
