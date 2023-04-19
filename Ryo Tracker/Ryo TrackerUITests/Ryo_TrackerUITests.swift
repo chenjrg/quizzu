@@ -29,4 +29,5 @@ class Ryo_TrackerUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing 
+        // Use recording to get started writing UI tests.
+        
