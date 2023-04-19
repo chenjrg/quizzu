@@ -30,4 +30,4 @@ class Ryo_TrackerUITests: XCTestCase {
     
     func testExample() {
         // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to ver
+        // Use XCTAssert and related functions to verify your tests produc
